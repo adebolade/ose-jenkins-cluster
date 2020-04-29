@@ -1,5 +1,5 @@
 #FROM registry.access.redhat.com/openshift3/jenkins-1-rhel7:1.609-15
-FROM registry.access.redhat.com/openshift3/jenkins-2-rhel7
+FROM registry.access.redhat.com/openshift3/jenkins-2-rhel7:v3.9
 
 ADD config-cloud.xml credentials.xml /opt/openshift/
 
