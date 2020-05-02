@@ -1,4 +1,5 @@
 FROM registry.access.redhat.com/rhel7/rhel:7.8-265
+#FROM registry.access.redhat.com/openshift3/jenkins-slave-base-rhel7:v3.6.173.0.164-3
 
 ENV JENKINS_SWARM_VERSION 3.19
 ENV JNLP_SLAVE_VERSION 4.2.1
