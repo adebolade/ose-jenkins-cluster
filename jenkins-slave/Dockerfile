@@ -1,9 +1,9 @@
 FROM registry.access.redhat.com/rhel7/rhel:7.8-265
 
-ENV JENKINS_SWARM_VERSION 2.0
-ENV JNLP_SLAVE_VERSION 2.52
+ENV JENKINS_SWARM_VERSION 3.19
+ENV JNLP_SLAVE_VERSION 4.2.1
 ENV HOME /opt/jenkins-slave
-ENV MAVEN_VERSION 3.3.3
+ENV MAVEN_VERSION 3.5.4
 ENV JAVA_HOME /usr/lib/jvm/java
 
 RUN yum install -y git tar zip unzip which java-1.8.0-openjdk-devel && \
